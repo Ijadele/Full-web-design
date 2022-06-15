@@ -1,0 +1,514 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(218, 28%, 13%);
+    
+}
+
+.logo {
+    width: 100px;
+    margin: 20px;
+    
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+nav {
+    width: 50%; 
+    margin-right: 30px;
+   }
+
+
+ nav ul {
+    text-align: right;
+    align-items: flex-start;
+   
+} 
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px;
+    text-align: center;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.content-img {    
+   width: 100%;  
+   margin: 20px auto 0;
+}
+
+.intro {
+    width: 100%;
+}
+
+
+#first-content {
+    width: 100%;
+}
+
+
+#first-content p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 25px;
+    width: 95%; 
+}
+
+
+.main-one p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 10px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 0 auto;
+    color: hsl(0, 0%, 100%);
+}
+
+#first-content h2 {
+    padding: 30px;
+    width: 90%;
+    font-size: 30px;
+}
+
+button {
+    border: transparent;
+    border-radius: 30px;
+    padding: 20px 0;
+    width: 80%;
+    margin: 10px 45px 25px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    background-color: hsl(198, 60%, 50%); 
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.icons {
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 1.8rem;
+    padding: 10px 10rem;
+}
+
+.productive .content-imgs {
+    margin: 10rem 10px 3rem;
+}
+
+.intros {
+    width: 100%;
+}
+
+#header {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.case-one {
+    margin: 20px;
+    padding: 10px;
+}
+
+.case-one p{
+    width: 100%;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+
+.case-one #file {
+    margin-bottom: 20px;
+}
+
+#link a {
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.quote {
+    margin: 8rem .5rem 0;
+}
+
+#quoter {
+    position: relative;
+    top: 2.8rem;
+    left: 3rem;
+}
+
+article {
+    margin: 0 20px;
+    padding: 40px 20px 0;
+  
+}
+#quote_1 {
+    border: 1px solid transparent;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding: 20px;
+    width: 95%;
+}
+
+#quote_2 {
+    border: 1px solid transparent;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding: 20px;
+    width: 95%;
+    margin-top: 30px;
+}
+
+#quote_3 {
+    border: 1px solid transparent;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding: 20px;
+    width: 95%;
+    margin-top: 30px;
+}
+#founder {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+span {
+    font-weight: 700;
+}
+
+.testifier {
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+}
+
+.users {
+    margin-top: 20px;
+}
+
+.access {
+    border: 1px solid transparent;
+    margin: 0 30px 0;
+    width: 100%;
+    position: relative;
+    top: 12rem;
+    border-radius: 20px;
+    background-color: hsl(217, 28%, 15%);
+}
+
+
+.access h2 {
+    margin: 60px 0 15px;
+    
+}
+
+.access p {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 15px;
+    
+}
+
+input {
+    border: transparent;
+    border-radius: 30px;
+    padding: 20px 50px;
+    width: 80%;
+    margin: 25px 45px;
+}
+
+footer {
+    padding: 15rem 2rem 0;
+    background-color: hsl(216, 53%, 9%);
+}
+
+
+.para {   
+    padding: 20px 15px;
+    text-align: left;
+    font-size: 18px;
+    
+} 
+
+.all {
+    display: flex;
+    align-items: baseline;
+}
+
+.lists {
+    margin: 5rem 0;
+}
+
+.lists ul {
+    list-style-type: none;
+}
+.lists ul li {
+    padding: 15px 0;
+    font-size: 18px;
+}
+.sect {
+    margin: 2rem 0;
+}
+
+i {
+    border: 1px solid white;
+    border-radius: 100%;
+    font-size: 24px;
+    width: fit-content;
+    height: auto;
+    padding: 10px;
+    margin: 5px 5px 3rem;
+}
+
+.social-icon {
+    margin-left: 8rem;
+}
+
+@media screen and (min-width: 600px) {
+   header {
+       width: 100%;
+   } 
+
+   nav ul li {
+    padding: 12px;
+    
+}
+
+.content-img {
+    width: 100%;
+    
+}
+
+.intro {
+    width: 50%;
+    height: auto;
+    margin: 0 20rem;
+}
+
+
+#first-content {
+    background-color: hsl(217, 28%, 15%);
+    background-image: url("./image/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+
+#first-content h2 {
+   width: 50%;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+#first-content p {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 40px;
+    width: 50%;
+}
+
+button {
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 38%;
+}
+
+ .main-one {
+    width: 100%;  
+} 
+
+.cont {
+    display: flex; 
+    flex-flow: row nowrap;
+    width: 100%;
+    padding: 20px 10rem;
+    justify-content: center;
+}
+
+
+.file-one {
+    flex: 1 0 50%;
+    margin-right: 50px;
+}
+
+.file-two {
+    flex: 1 0 50%;
+    margin-left: 50px;
+}
+
+.icons {
+    margin-left: 50px;
+}
+
+.productive{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+    margin-top: -8em;
+    justify-content: space-between;
+}
+
+
+.intros {
+    width: 80%;
+    height: auto;
+    margin: 0 8rem 10em;
+}
+
+
+.case-one {
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+  
+.case-one #header {
+    font-size: 30px;
+    width: 50%;
+    margin: 0;
+} 
+
+.case-one #files {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.case-one #file {
+    margin-bottom: 120px;
+}
+
+#link {
+    margin-top: -6.5rem;
+}
+
+.quote {
+    margin: 0 5rem 0;
+}
+
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-items: center;
+    position: relative;
+    bottom: 8px;
+    left: 20px;
+}
+
+#quote_1 {
+    flex-shrink: 3;
+    flex-basis: 30%;
+}
+
+#quote_2 {
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+    flex-shrink: 3;
+    flex-basis: 30%;
+}
+
+#quote_3 {
+    margin-top: 0;
+    flex-shrink: 2;
+    flex-basis: 30%;
+}
+
+#email {
+        width: 75%;
+        
+    
+}
+
+.access {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.access h2 {
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.form button {
+    width: 100%;
+    font-size: 14px;
+    position: relative;
+    right: 100px;
+}
+
+.footer-cont {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-bottom: 5rem;
+}
+
+ 
+.para {
+    font-size: 14px;
+}
+
+.lists {
+    margin: 0;
+}
+
+.fold {
+    flex: 0 0 30%;
+}
+
+.folder {
+    flex: 0 0 0%;
+    padding: 0 3rem;
+}
+
+.sect {
+    margin: 0;
+}
+
+.lists ul li {
+    font-size: 14px;
+    padding: 10px;
+}
+
+}
